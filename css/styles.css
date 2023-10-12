@@ -342,11 +342,7 @@ body{
     grid-template-rows: 1fr 1fr;
 }
 
-.img-content{
-    height: 160px;
-    width: 100%;
-    text-align: center;
-}
+
 
 .card-button{
     cursor: pointer;
@@ -356,7 +352,13 @@ body{
     padding: 7px;
     border-radius: 3px;
     font-size: 0.9rem;
-    margin-top: 100px;
+    margin-top: 40px;
+}
+
+.card-picture{
+    height: 220px;
+    width: 250px;
+    border-radius: 15px;
 }
 
 .card-button:hover{
@@ -372,10 +374,6 @@ body{
     }
 }
 
-.picone{
-    height: 100px;
-    width: 100px;
-}
 
 
 /* CONTACT SECTION */
@@ -415,6 +413,7 @@ input{
     padding: 20px;
     border: 1px solid gray;
     border-radius: 7px;
+    margin-bottom: 15px;
 }
 
 form div{
@@ -430,7 +429,7 @@ form div{
     border-radius: 5px;
     color: white;
     background-color: gray;
-    margin-top: 13px;
+    margin-bottom: 10px;
     cursor: pointer;
     font-size: 0.9rem;
     padding: 8px;
