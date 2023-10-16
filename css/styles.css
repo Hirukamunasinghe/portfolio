@@ -358,7 +358,8 @@ body{
 .card-picture{
     height: 220px;
     width: 250px;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .card-button:hover{
