@@ -4,3 +4,8 @@ cardButton.addEventListener('click',()=>{
     window.location = 'https://hirukamunasinghe.github.io/sporting-website-page/'
 });
 
+//Navigates to the ping pong game page after the button click
+const cardbuttonTwo = document.querySelector('.card-button-two');
+cardbuttonTwo.addEventListener('click',()=>{
+    window.location = 'ping-pong/index.html'
+})

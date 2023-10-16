@@ -1,0 +1,11 @@
+body{
+    background-color: peachpuff;
+}
+
+.winner{
+    color: green;
+}
+
+.loser{
+    color: red;
+}
