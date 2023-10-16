@@ -9,3 +9,9 @@ const cardbuttonTwo = document.querySelector('.card-button-two');
 cardbuttonTwo.addEventListener('click',()=>{
     window.location = 'pingpong.html'
 })
+
+//Navigates to the blog post after the button click
+const cardButtonThree = document.querySelector('.card-button-three');
+cardButtonThree.addEventListener('click',()=>{
+    window.location = 'blog.html'
+})

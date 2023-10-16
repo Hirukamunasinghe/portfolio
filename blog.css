@@ -1,0 +1,51 @@
+.heading-div{
+    text-align: center;
+    background-color: gray;
+    padding: 18px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Young Serif', serif;
+}
+
+.heading-3{
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: -25px;
+}
+
+.heading-para{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/* BODY SECTION */
+#body-section{
+    margin-top: 230px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.programming-heading{
+    padding-top: 10px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.main-para{
+   margin-top: -20px;
+}
+
+.image-div{
+    display: flex;
+    justify-content: center;
+}
+
+.image-div .certificate{
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}

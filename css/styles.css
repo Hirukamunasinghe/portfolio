@@ -232,9 +232,7 @@ body{
 
 }
 
-
-
-/* MOBILE RESPONSIVE SECTION USING MAX WIDTH */
+/* MOBILE RESPONSIVE SECTION USING MAX WIDTH - about section */
 @media (max-width: 500px) {
     .image {
         display: block;
