@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: black;
     color: white;
 }
 
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,23 +21,23 @@ body{
     padding-top: 20px;
 }
 
-.nav-links ul{
+.nav-links ul {
     display: flex;
     gap: 100px;
 }
 
-.nav-links ul li{
+.nav-links ul li {
     list-style: none;
 
 }
 
 
-.nav-links ul li a:hover{
+.nav-links ul li a:hover {
     color: #C70039;
     transition: 0.5s ease-in 0s
 }
 
-.nav-links ul li a{
+.nav-links ul li a {
     color: white;
     text-decoration: none;
     padding: 1rem;
@@ -45,46 +45,46 @@ body{
     cursor: pointer;
 }
 
-.nav-links .home-link{
+.nav-links .home-link {
     color: #C70039;
 }
 
-.navbar-title{
+.navbar-title {
     padding-right: 50px;
 }
 
-.olio{
+.olio {
     color: #C70039;
 }
 
 
 
 /* HOME PAGE AFTER NAVIGATION */
-.home-div{
+.home-div {
     background-color: black;
     display: flex;
     justify-content: space-between;
 }
 
-.my-image{
+.my-image {
     border: 0;
     position: relative;
     transform: rotate(-0.1deg);
     margin-top: -5px;
 }
 
-.main-heading{
+.main-heading {
     color: white;
-    padding:180px 35px 0 0;
+    padding: 180px 35px 0 0;
     font-weight: bold;
     font-size: 4rem;
 }
 
-.im{
+.im {
     color: grey
 }
 
-.front-end-heading{
+.front-end-heading {
     text-align: center;
     color: white;
     padding: 30px 50px 350px 0px;
@@ -99,21 +99,21 @@ body{
     text-align: center;
 }
 
-.frontend{
+.frontend {
     color: #C70039;
 }
 
-.buttons-content{
+.buttons-content {
     margin-top: -300px;
     display: flex;
     justify-content: center;
 }
 
-.button-1{
+.button-1 {
     padding-right: 40px;
 }
 
-.cv-button{
+.cv-button {
     border: 1px solid red;
     background-color: white;
     padding: 2px;
@@ -126,44 +126,44 @@ body{
     font-size: 1.1rem;
 }
 
-.cv-button:hover{
+.cv-button:hover {
     background-color: #C70039;
     color: white;
     transition: 0.5s ease-out 0s;
 }
 
 
-.download-text{
+.download-text {
     font-weight: bold;
     margin-bottom: 60px;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: center;
     margin-right: 30px;
     gap: 35px;
 }
 
-.link{
+.link {
     color: white;
     font-size: 1.6rem;
     padding-top: 60px;
 }
 
-.icons .fb:hover{
+.icons .fb:hover {
     color: lightblue;
 }
 
-.icons .gt:hover{
+.icons .gt:hover {
     color: grey;
 }
 
-.icons .ln:hover{
+.icons .ln:hover {
     color: #3085C3;
 }
 
-.icons .tw:hover{
+.icons .tw:hover {
     color: aqua;
 }
 
@@ -175,13 +175,13 @@ body{
     margin-top: 50px;
 }
 
-.about-heading{
+.about-heading {
     font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     color: #C70039;
 }
 
-.start-para{
+.start-para {
     text-align: center;
     padding-top: 10px;
 }
@@ -191,12 +191,11 @@ body{
     font-size: 1.5rem;
 }
 
-.para{
+.para {
     padding-top: 10px;
 }
 
 .image {
-    position: relative;
     float: left;
     margin-right: 25px;
     margin-left: 70px;
@@ -219,15 +218,15 @@ body{
     padding-left: 150px;
 }
 
-.end-para{
+.end-para {
     padding-top: 30px;
 }
 
-.github-link{
+.github-link {
     color: white;
 }
 
-.first{
+.first {
     color: lightskyblue;
 
 }
@@ -252,7 +251,7 @@ body{
         margin-right: 10px;
     }
 
-    .list-2{
+    .list-2 {
         padding-left: 20px;
     }
 }
@@ -293,36 +292,36 @@ body{
 }
 
 
-.image-div{
+.image-div {
     background-color: white;
     width: 20px;
 }
 
-#skills-section{
+#skills-section {
     padding: 50px;
     margin-top: 50px;
     text-align: center;
 }
 
-.skills-heading{
+.skills-heading {
     font-size: 2.2rem;
     color: #C70039;
 }
 
-.skills-para{
+.skills-para {
     padding-top: 10px;
 }
 
 
 /* PROJECTS SECTION */
-.projects-heading{
+.projects-heading {
     font-size: 2.2rem;
     color: #C70039;
     text-align: center;
 }
 
 
-.main-div{
+.main-div {
     display: flex;
     justify-content: center;
     gap: 170px;
@@ -331,7 +330,7 @@ body{
     padding-top: 20px;
 }
 
-.project-card{
+.project-card {
     display: grid;
     border: 2px solid white;
     height: 320px;
@@ -342,7 +341,7 @@ body{
 
 
 
-.card-button{
+.card-button {
     cursor: pointer;
     border: 2.3px solid #C70039;
     color: black;
@@ -353,21 +352,21 @@ body{
     margin-bottom: 10px;
 }
 
-.card-picture{
+.card-picture {
     height: 220px;
     width: 250px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
-.card-button:hover{
+.card-button:hover {
     background-color: #C70039;
     color: white;
     transition: 0.3s ease-in 0s
 }
 
 @media all and (max-width:1000px) {
-    .main-div{
+    .main-div {
         display: grid;
         gap: 50px;
     }
@@ -376,14 +375,14 @@ body{
 
 
 /* CONTACT SECTION */
-#contact-section{
+#contact-section {
     background-color: gray;
     width: 75%;
     margin: auto;
     border-radius: 2px;
 }
 
-.contact-heading{
+.contact-heading {
     font-size: 2.2rem;
     color: white;
     text-align: center;
@@ -391,23 +390,23 @@ body{
     padding-top: 20px;
 }
 
-.subheading{
+.subheading {
     display: flex;
     justify-content: center;
 }
 
-.cont-para{
+.cont-para {
     display: flex;
     justify-content: center;
     padding-top: 7px;
 }
 
-form{
+form {
     text-align: center;
     padding-top: 10px;
 }
 
-input{
+input {
     width: 880px;
     padding: 20px;
     border: 1px solid gray;
@@ -415,15 +414,15 @@ input{
     margin-bottom: 15px;
 }
 
-form div{
+form div {
     padding: 3px;
 }
 
-.message{
+.message {
     padding-bottom: 50px;
 }
 
-.send-button{
+.send-button {
     border: 2px solid white;
     border-radius: 5px;
     color: white;
@@ -436,9 +435,20 @@ form div{
     text-align: center;
 }
 
-.send-button:hover{
+.send-button:hover {
     background-color: black;
     color: white;
     transition: 0.2s ease-in 0s
 }
 
+@media all and (max-width:1300px){
+    input{
+        width: 400px;
+    }
+}
+
+@media all and (max-width:700px){
+    input{
+        width: 200px;
+    }
+}
