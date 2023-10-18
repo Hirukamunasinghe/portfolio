@@ -97,15 +97,23 @@ body {
     .nav-links ul{
         width: 100%;
         flex-direction: column;
+        gap: 10px;
     }
+
 
     .nav-links ul li {
         padding: 1rem;
         text-align: center;
     }
 
+
     .nav-links.active{
         display:flex;
+    }
+
+    .heading-center{
+        margin-left: 147px;
+        margin-top: 10px;
     }
 
 }
@@ -227,9 +235,6 @@ body {
         display: none;
     }
 
-    .heading-center{
-        margin-left:147px
-    }
 }
 
 
