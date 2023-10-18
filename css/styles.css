@@ -219,8 +219,6 @@ body {
 }
 
 @media all and (max-width:800px){
-
-
     h1{
         display: none;
     }
@@ -228,7 +226,12 @@ body {
     .text-content{
         display: none;
     }
+
+    .heading-center{
+        margin-left:147px
+    }
 }
+
 
 
 /* ABOUT SECTION */
@@ -375,7 +378,7 @@ body {
 }
 
 /* reponsive skills section */
-@media all and (max-width:800px){
+@media all and (max-width:900px){
     .skill-card-row{
         display: flex;
         flex-direction: column;
@@ -517,17 +520,23 @@ form div {
 }
 
 /* responsive contact section */
-@media all and (max-width:800px){
-    #contact-section{
-       margin-top: 50px
-    }
 
-}
 
 @media all and (max-width:1300px){
     input{
         width: 400px;
     }
+
+    #contact-section{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .contact-heading{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media all and (max-width:700px){
