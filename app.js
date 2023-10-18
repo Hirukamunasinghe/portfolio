@@ -16,3 +16,11 @@ cardButtonThree.addEventListener('click', () => {
     window.location = 'blog.html'
 })
 
+// accessing the toggle button
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('nav-links')[0]
+
+// toggle button click
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+})
