@@ -111,7 +111,7 @@ body {
     }
 
     .heading-center {
-        margin-left: 147px;
+        text-align: center;
         margin-top: 10px;
     }
 
@@ -579,7 +579,6 @@ form div {
 
     #skills-section {
         width: 100%;
-        margin-right: 30px;
     }
 
     .skill-card-row {
@@ -599,12 +598,10 @@ form div {
         margin: auto;
         text-align: center;
         width: 100%;
-        margin: auto;
     }
 
     .skills-intro {
-        width: 100%;
-        margin: auto;
+        text-align: left;
         margin-top: -20px;
     }
 
