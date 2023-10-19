@@ -10,7 +10,6 @@ body {
     color: white;
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -28,13 +27,11 @@ body {
 
 .nav-links ul li {
     list-style: none;
-
 }
-
 
 .nav-links ul li a:hover {
     color: #C70039;
-    transition: 0.5s ease-in 0s
+    transition: 0.5s ease-in
 }
 
 .nav-links ul li a {
@@ -57,12 +54,12 @@ body {
     color: #C70039;
 }
 
-.toggle-button{
+.toggle-button {
     position: absolute;
     top: 0.5rem;
     margin-top: 10px;
     right: 1rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
@@ -70,7 +67,7 @@ body {
     display: none;
 }
 
-.toggle-button .toggle-bar{
+.toggle-button .toggle-bar {
     background-color: white;
     width: 100%;
     height: 3px;
@@ -79,22 +76,24 @@ body {
 
 
 /* navbar responsive */
-@media (max-width: 800px){
-    .toggle-button{
+@media (max-width: 800px) {
+
+
+    .toggle-button {
         display: flex;
     }
 
-    .nav-links{
+    .nav-links {
         display: none;
         width: 100%;
     }
 
-    .navbar{
+    .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .nav-links ul{
+    .nav-links ul {
         width: 100%;
         flex-direction: column;
         gap: 10px;
@@ -107,11 +106,11 @@ body {
     }
 
 
-    .nav-links.active{
-        display:flex;
+    .nav-links.active {
+        display: flex;
     }
 
-    .heading-center{
+    .heading-center {
         margin-left: 147px;
         margin-top: 10px;
     }
@@ -224,17 +223,6 @@ body {
 
 .icons .tw:hover {
     color: aqua;
-}
-
-@media all and (max-width:800px){
-    h1{
-        display: none;
-    }
-
-    .text-content{
-        display: none;
-    }
-
 }
 
 
@@ -382,19 +370,7 @@ body {
     padding-top: 10px;
 }
 
-/* reponsive skills section */
-@media all and (max-width:900px){
-    .skill-card-row{
-        display: flex;
-        flex-direction: column;
-    }
 
-    .skill-card{
-        display: flex;
-        padding: 10px 15px;
-        text-align: center;
-    }
-}
 
 /* PROJECTS SECTION */
 .projects-heading {
@@ -421,7 +397,6 @@ body {
     border-radius: 15px;
     grid-template-rows: 1fr 1fr;
 }
-
 
 
 .card-button {
@@ -455,8 +430,6 @@ body {
     }
 }
 
-
-
 /* CONTACT SECTION */
 #contact-section {
     background-color: gray;
@@ -489,7 +462,23 @@ form {
     padding-top: 10px;
 }
 
-input {
+input[type="text"] {
+    width: 880px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+input[type="email"] {
+    width: 880px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+input[type="tel"] {
     width: 880px;
     padding: 20px;
     border: 1px solid gray;
@@ -527,25 +516,110 @@ form div {
 /* responsive contact section */
 
 
-@media all and (max-width:1300px){
-    input{
+@media all and (max-width:1300px) {
+    input {
         width: 400px;
     }
 
-    #contact-section{
+    #contact-section {
         margin-top: 50px;
         text-align: center;
     }
 
-    .contact-heading{
+    .contact-heading {
         display: flex;
         justify-content: center;
     }
 
 }
 
-@media all and (max-width:700px){
-    input{
-        width: 200px;
+@media all and (max-width:700px) {
+    input[type="text"] {
+        width: 220px;
     }
+
+    input[type="email"] {
+        width: 220px;
+    }
+
+    input[type="tel"] {
+        width: 220px;
+    }
+
+}
+
+/* responsive section */
+@media all and (max-width:900px) {
+
+    /* home section */
+    .home-div {
+        width: 100%;
+    }
+
+    .my-image {
+        width: 100%;
+        margin: auto;
+    }
+
+    #about-section {
+        width: 100%;
+    }
+    
+    h1 {
+        display: none;
+    }
+
+    /* reponsive skills section */
+
+    #skills-section {
+        width: 80%;
+    }
+
+    .skill-card-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill-card {
+        display: flex;
+        padding: auto;
+        text-align: center;
+        margin-right: 88px;
+        width: 100px;
+    }
+
+    .skills-para {
+        margin: auto;
+        text-align: left;
+        width: 100%;
+    }
+
+    .skills-intro {
+        width: 100%;
+        text-align: left;
+    }
+
+    .skills-heading {
+        margin-bottom: 10px;
+        margin-left: -100px;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .p-card {
+        margin-bottom: 10px;
+    }
+
+    .text-content {
+        display: none;
+    }
+
+    #about-section {
+        margin: auto;
+    }
+
+    #contact-section {
+        margin: auto;
+    }
+
 }
