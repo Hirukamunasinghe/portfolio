@@ -585,6 +585,7 @@ form div {
     .skill-card-row {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
 
     .skill-card {
@@ -592,18 +593,19 @@ form div {
         padding: auto;
         text-align: center;
         width: 100px;
-
     }
 
     .skills-para {
         margin: auto;
         text-align: center;
         width: 100%;
+        margin: auto;
     }
 
     .skills-intro {
         width: 100%;
-        text-align: left;
+        margin: auto;
+        margin-top: -20px;
     }
 
     .skills-heading {
@@ -627,11 +629,11 @@ form div {
     }
 
     .email-link{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .github-link{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     #skills-section{
