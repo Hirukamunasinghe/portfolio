@@ -557,6 +557,7 @@ form div {
 /* responsive section */
 @media all and (max-width:1200px) {
     body{
+        overflow: hidden;
         ::-webkit-scrollbar {
             -webkit-appearance: none;
         }
