@@ -556,7 +556,6 @@ form div {
 
 /* responsive section */
 @media all and (max-width:1200px) {
-
     body{
         ::-webkit-scrollbar {
             -webkit-appearance: none;
@@ -598,7 +597,7 @@ form div {
         padding: auto;
         text-align: center;
         width: 100px;
-        margin-left: 25px;
+        margin-left: 35px;
     }
 
     .skills-intro .skills-para {
