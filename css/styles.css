@@ -616,6 +616,10 @@ form div {
         margin: auto;
     }
 
+    .image{
+        width: 50%;
+    }
+
     #contact-section {
         margin: auto;
     }
