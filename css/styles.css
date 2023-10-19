@@ -515,10 +515,9 @@ form div {
 
 /* responsive contact section */
 
-
 @media all and (max-width:1300px) {
     input {
-        width: 400px;
+        width: 300px;
     }
 
     #contact-section {
@@ -535,15 +534,15 @@ form div {
 
 @media all and (max-width:700px) {
     input[type="text"] {
-        width: 220px;
+        width: 160px;
     }
 
     input[type="email"] {
-        width: 220px;
+        width: 160px;
     }
 
     input[type="tel"] {
-        width: 220px;
+        width: 160px;
     }
 
 }
@@ -572,6 +571,7 @@ form div {
 
     #skills-section {
         width: 80%;
+        margin-right: 30px;
     }
 
     .skill-card-row {
@@ -614,6 +614,11 @@ form div {
 
     #about-section {
         margin: auto;
+        width: 80%;
+    }
+
+    #skills-section{
+        width: 80%;
     }
 
     .image{
