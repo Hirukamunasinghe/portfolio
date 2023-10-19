@@ -626,6 +626,14 @@ form div {
         width: 80%;
     }
 
+    .email-link{
+        font-size: 0.8rem;
+    }
+
+    .github-link{
+        font-size: 0.8rem;
+    }
+
     #skills-section{
         width: 80%;
     }
