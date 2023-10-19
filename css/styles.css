@@ -558,7 +558,9 @@ form div {
 @media all and (max-width:1200px) {
 
     body{
-        overflow-x: hidden;
+        ::-webkit-scrollbar {
+            -webkit-appearance: none;
+        }
     }
 
     /* home section */
