@@ -599,7 +599,7 @@ form div {
         padding: auto;
         text-align: center;
         width: 100px;
-        margin-left: 40px;
+        margin-left: 38px;
     }
 
     .skills-intro .skills-para {
@@ -646,6 +646,11 @@ form div {
 
     .image{
         width: 80%;
+    }
+
+    .projects-heading{
+        display: flex;
+        justify-content: center;
     }
 
     #contact-section {
