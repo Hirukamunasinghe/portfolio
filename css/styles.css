@@ -549,8 +549,7 @@ form div {
 }
 
 /* responsive section */
-@media all and (max-width:900px) {
-
+@media all and (max-width:1200px) {
     /* home section */
     .home-div {
         width: 100%;
@@ -584,13 +583,12 @@ form div {
         display: flex;
         padding: auto;
         text-align: center;
-        margin-right: 88px;
         width: 100px;
     }
 
     .skills-para {
         margin: auto;
-        text-align: left;
+        text-align: center;
         width: 100%;
     }
 
@@ -601,7 +599,7 @@ form div {
 
     .skills-heading {
         margin-bottom: 10px;
-        margin-left: -100px;
+        margin-left: -30cdpx;
         margin-right: auto;
         text-align: center;
     }
