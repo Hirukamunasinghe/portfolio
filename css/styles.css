@@ -8,6 +8,7 @@
 body {
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -298,11 +299,10 @@ body {
     .image {
         display: block;
         margin-left: 30px;
-        margin-right: auto;
     }
 }
 
-@media all and (max-width:1000px) {
+@media all and (max-width:1200px) {
     .image {
         border-radius: 50%;
     }
