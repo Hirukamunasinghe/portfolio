@@ -290,11 +290,11 @@ body {
 }
 
 .list-1{
-    margin-left: -50px;
+    margin-left: -30px;
 }
 
 .list-2{
-    margin-left: -50px;
+    margin-left: -30px;
 }
 
 .first {
@@ -582,7 +582,7 @@ form div {
     /* reponsive skills section */
 
     #skills-section {
-        width: 80%;
+        width: 100%;
         margin-right: 30px;
     }
 
@@ -611,7 +611,7 @@ form div {
 
     .skills-heading {
         margin-bottom: 10px;
-        margin-left: -30cdpx;
+        margin-left: -30px;
         margin-right: auto;
         text-align: center;
     }
@@ -626,15 +626,15 @@ form div {
 
     #about-section {
         margin: auto;
-        width: 80%;
+        width: 100%;
     }
 
     #skills-section{
-        width: 80%;
+        width: 100%;
     }
 
     .image{
-        width: 80%;
+        width: 100%;
     }
 
     #contact-section {
