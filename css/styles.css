@@ -78,7 +78,6 @@ body {
 /* navbar responsive */
 @media (max-width: 800px) {
 
-
     .toggle-button {
         display: flex;
     }
@@ -594,10 +593,9 @@ form div {
         width: 100px;
     }
 
-    .skills-para {
-        margin: auto;
-        text-align: center;
-        width: 100%;
+    .skills-intro .skills-para {
+        display: flex;
+        justify-content: left;
     }
 
     .skills-intro {
