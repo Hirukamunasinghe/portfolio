@@ -596,6 +596,7 @@ form div {
         padding: auto;
         text-align: center;
         width: 100px;
+
     }
 
     .skills-para {
@@ -626,15 +627,15 @@ form div {
 
     #about-section {
         margin: auto;
-        width: 100%;
+        width: 80%;
     }
 
     #skills-section{
-        width: 100%;
+        width: 80%;
     }
 
     .image{
-        width: 100%;
+        width: 80%;
     }
 
     #contact-section {
