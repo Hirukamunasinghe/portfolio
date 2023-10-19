@@ -285,6 +285,18 @@ body {
     color: white;
 }
 
+.email-link{
+    color: white
+}
+
+.list-1{
+    margin-left: -50px;
+}
+
+.list-2{
+    margin-left: -50px;
+}
+
 .first {
     color: lightskyblue;
 
