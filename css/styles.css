@@ -556,6 +556,11 @@ form div {
 
 /* responsive section */
 @media all and (max-width:1200px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
     /* home section */
     .home-div {
         width: 100%;
