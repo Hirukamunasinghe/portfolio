@@ -556,12 +556,12 @@ form div {
 
 /* responsive section */
 @media all and (max-width:1200px) {
-    body{
-        overflow: hidden;
-        ::-webkit-scrollbar {
-            -webkit-appearance: none;
-        }
-    }
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
 
     /* home section */
     .home-div {
@@ -598,7 +598,7 @@ form div {
         padding: auto;
         text-align: center;
         width: 100px;
-        margin-left: 35px;
+        margin-left: 40px;
     }
 
     .skills-intro .skills-para {
