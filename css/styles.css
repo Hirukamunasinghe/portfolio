@@ -591,6 +591,7 @@ form div {
         padding: auto;
         text-align: center;
         width: 100px;
+        margin-left: 65px;
     }
 
     .skills-intro .skills-para {
