@@ -2,8 +2,11 @@ body{
     overflow: hidden;
 }
 
+
 .card-footer{
     width: 50%;
+    display: flex;
+    gap: 15px;
 }
 
 body{
