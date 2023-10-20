@@ -30,6 +30,7 @@
 #body-section {
     margin-top: 245px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .programming-heading {
@@ -42,13 +43,16 @@
     margin-top: -20px;
 }
 
-.image-div {
-    display: flex;
-    justify-content: center;
-}
-
 .certificate {
     width: 50%;
     border: 1px solid gray;
     border-radius: 3px;
+}
+
+/* responsive section */
+@media all and (max-width:1200px){
+    .image-div .certificate{
+        width: 100%;
+        margin: auto;
+    }
 }
