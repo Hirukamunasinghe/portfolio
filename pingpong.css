@@ -27,4 +27,23 @@ body{
         position: relative;
     }
 
+    #p1Button{
+        width: 50%;
+        height:50%
+    }
+
+    #p2Button{
+        width: 50%;
+        height:50%
+    }
+
+    #reset{
+        width: 45%;
+        height:50%
+    }
+
+    .card-footer .game-button{
+        font-size: 0.8rem;
+    }
+
 }
