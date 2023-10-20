@@ -52,7 +52,7 @@
 /* responsive section */
 @media all and (max-width:1200px){
     .image-div .certificate{
-        width: 100%;
         margin: auto;
+        width: 100%;
     }
 }
