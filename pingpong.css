@@ -1,4 +1,12 @@
 body{
+    overflow: hidden;
+}
+
+.card-footer{
+    width: 50%;
+}
+
+body{
     background-color: peachpuff;
 }
 
@@ -8,4 +16,15 @@ body{
 
 .loser{
     color: red;
+}
+
+@media all and (max-width:1200px){
+    html,body{
+        overflow-x:hidden;
+    }
+
+    body{
+        position: relative;
+    }
+
 }
