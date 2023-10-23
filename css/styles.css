@@ -405,6 +405,11 @@ body {
     grid-template-rows: 1fr 1fr;
 }
 
+.project-card:hover{
+    transition: 0.3s;
+    box-shadow: 0 3px 10px 0 #C70039;
+}
+
 
 .card-button {
     cursor: pointer;
@@ -657,5 +662,6 @@ form div {
     #contact-section {
         margin: auto;
     }
+
 
 }
