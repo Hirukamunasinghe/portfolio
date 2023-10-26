@@ -5,7 +5,8 @@
     scroll-behavior: smooth;
 }
 
-body {
+html,body {
+    /* 2. colors */
     background-color: black;
     color: white;
 
@@ -21,18 +22,14 @@ body {
     padding-top: 20px;
 }
 
-.nav-links ul {
+/* 8. child selector - accessing the ul(child) from .nav-links(parent class) */
+.nav-links>ul {
     display: flex;
     gap: 100px;
 }
 
 .nav-links ul li {
     list-style: none;
-}
-
-.nav-links ul li a:hover {
-    color: #C70039;
-    transition: 0.5s ease-in
 }
 
 .nav-links ul li a {
@@ -43,9 +40,25 @@ body {
     cursor: pointer;
 }
 
+/* 5. attribute selectors */
+/* attribute selector 1 */
+a[href] {
+    color: white;
+}
+
+
+/* 7 user-action pseudoclass - hover */
+.nav-links ul li a:hover {
+    color: #C70039;
+    /* 18. Transition */
+    transition: 0.5s ease-in
+}
+
 .nav-links .home-link {
     color: #C70039;
+    opacity: 0.9;
 }
+
 
 .navbar-title {
     padding-right: 50px;
@@ -74,6 +87,7 @@ body {
     height: 3px;
     border-radius: 10px;
 }
+
 
 
 /* navbar responsive */
@@ -114,7 +128,6 @@ body {
         text-align: center;
         margin-top: 10px;
     }
-
 }
 
 /* HOME PAGE AFTER NAVIGATION */
@@ -127,6 +140,7 @@ body {
 .my-image {
     border: 0;
     position: relative;
+    /* 17. Trasnform */
     transform: rotate(-0.1deg);
     margin-top: -5px;
 }
@@ -245,9 +259,16 @@ body {
     padding-top: 10px;
 }
 
-.heading {
+/* 9. Structural selector - :first-of-type */
+p:first-of-type {
+    font-size: 1.08rem;
+}
+
+.sub-heading {
     color: peachpuff;
     font-size: 1.5rem;
+    /* 4. text effect - text shadow */
+    text-shadow: 1px 0.8px gray;
 }
 
 .para {
@@ -277,21 +298,32 @@ body {
     padding-left: 150px;
 }
 
+
 .end-para {
     padding-top: 30px;
+}
+
+/* 6. pseudo element - ::after  */
+.end-para::after {
+    content: 'He is capable of applying his problem-solving skills in algorithms as well as in business cases.';
 }
 
 .github-link {
     color: white;
 }
 
-.email-link{
+.email-link {
     color: white
 }
 
 .first {
     color: lightskyblue;
 
+}
+
+/* 7. user-action pseudo class -active */
+.github-link:active {
+    background-color: red;
 }
 
 /* MOBILE RESPONSIVE SECTION USING MAX WIDTH - about section */
@@ -313,17 +345,23 @@ body {
         margin-right: 10px;
     }
 
-    .list-1{
+    .list-1 {
         margin-left: -30px;
     }
-    
-    .list-2{
+
+    .list-2 {
         margin-left: -160px;
     }
 }
 
 
 /* SKILLS SECTION */
+#skills-section {
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
 .skill-card-row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -331,13 +369,15 @@ body {
     row-gap: 40px;
     margin: 0 100px;
     padding: 32px 0;
-
 }
 
 .p-card {
-    box-shadow: 0 3px 8px 0 #C70039;
-    border-radius: 5px;
+    /* 14. Border */
     border: 1px solid #eae7e7;
+    /* 3. shadow effects */
+    box-shadow: 0 3px 8px 0 #C70039;
+    /* 15. rounded corners - border radius */
+    border-radius: 5px;
 }
 
 .p-card:hover {
@@ -362,11 +402,6 @@ body {
     width: 20px;
 }
 
-#skills-section {
-    padding: 50px;
-    margin-top: 50px;
-    text-align: center;
-}
 
 .skills-heading {
     font-size: 2.2rem;
@@ -401,11 +436,12 @@ body {
     border: 2px solid white;
     height: 320px;
     width: 250px;
+    /* 15. rounded corners - border radius */
     border-radius: 15px;
     grid-template-rows: 1fr 1fr;
 }
 
-.project-card:hover{
+.project-card:hover {
     transition: 0.3s;
     box-shadow: 0 3px 10px 0 #C70039;
 }
@@ -444,13 +480,25 @@ body {
 
 /* CONTACT SECTION */
 #contact-section {
-    background-color: gray;
     width: 75%;
     margin: auto;
     border-radius: 2px;
+    /* 16. Gradient */
+    background: linear-gradient(#4b4d53, #b6bbca);
 }
 
-.contact-heading {
+/* 10. Negation pseudo class */
+#contact-section:not() {
+    background-color: black;
+}
+
+/* 11. Nth pseudo class */
+section:nth-child(7) {
+    background-color: gray;
+}
+
+/* attribute selector 2 */
+h1[target] {
     font-size: 2.2rem;
     color: white;
     text-align: center;
@@ -474,7 +522,7 @@ form {
     padding-top: 10px;
 }
 
-input[type="text"] {
+input {
     width: 880px;
     padding: 20px;
     border: 1px solid gray;
@@ -482,21 +530,6 @@ input[type="text"] {
     margin-bottom: 15px;
 }
 
-input[type="email"] {
-    width: 880px;
-    padding: 20px;
-    border: 1px solid gray;
-    border-radius: 7px;
-    margin-bottom: 15px;
-}
-
-input[type="tel"] {
-    width: 880px;
-    padding: 20px;
-    border: 1px solid gray;
-    border-radius: 7px;
-    margin-bottom: 15px;
-}
 
 form div {
     padding: 3px;
@@ -524,6 +557,8 @@ form div {
     color: white;
     transition: 0.2s ease-in 0s
 }
+
+/* 13. Have placed a data validation message in the HTML file itself */
 
 /* responsive contact section */
 
@@ -561,13 +596,15 @@ form div {
 
 /* responsive section */
 @media all and (max-width:1200px) {
-    html, body {
+
+    html,
+    body {
         overflow-x: hidden;
-      }
+    }
 
     body {
         position: relative
-      }
+    }
 
     /* home section */
     .home-div {
@@ -582,10 +619,12 @@ form div {
     #about-section {
         width: 100%;
     }
-    
+
     h1 {
         display: none;
     }
+
+
 
     /* reponsive skills section */
 
@@ -638,23 +677,23 @@ form div {
         width: 80%;
     }
 
-    .email-link{
+    .email-link {
         font-size: 0.9rem;
     }
 
-    .github-link{
+    .github-link {
         font-size: 0.9rem;
     }
 
-    #skills-section{
+    #skills-section {
         width: 80%;
     }
 
-    .image{
+    .image {
         width: 80%;
     }
 
-    .projects-heading{
+    .projects-heading {
         display: flex;
         justify-content: center;
     }
@@ -662,6 +701,5 @@ form div {
     #contact-section {
         margin: auto;
     }
-
 
 }

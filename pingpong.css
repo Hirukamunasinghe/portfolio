@@ -1,53 +1,61 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     overflow: hidden;
 }
 
 
-.card-footer{
+.card-footer {
     width: 50%;
     display: flex;
     gap: 15px;
 }
 
-body{
+html,body{
     background-color: peachpuff;
 }
 
-.winner{
+.winner {
     color: green;
 }
 
-.loser{
+.loser {
     color: red;
 }
 
-@media all and (max-width:1200px){
-    html,body{
-        overflow-x:hidden;
+@media all and (max-width:1200px) {
+
+    html,
+    body {
+        overflow-x: hidden;
     }
 
-    body{
+    body {
         position: relative;
     }
 
-    #p1Button{
+    #p1Button {
         width: 50%;
-        height:50%;
+        height: 50%;
         text-align: center;
     }
 
-    #p2Button{
+    #p2Button {
         width: 50%;
-        height:50%;
+        height: 50%;
         text-align: center;
     }
 
-    #reset{
+    #reset {
         width: 45%;
-        height:50%
+        height: 50%
     }
 
-    .card-footer .game-button{
+    .card-footer .game-button {
         font-size: 0.7rem;
     }
 
