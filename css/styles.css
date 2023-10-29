@@ -487,6 +487,7 @@ p:first-of-type {
     background: linear-gradient(#4b4d53, #b6bbca);
 }
 
+
 /* 10. Negation pseudo class */
 #contact-section:not() {
     background-color: black;
