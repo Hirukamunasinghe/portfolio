@@ -383,6 +383,7 @@ p:first-of-type {
 .p-card:hover {
     transition: 0.3s;
     box-shadow: 0 3px 10px 0 white;
+    transform: scale(1.02);
 }
 
 .skill-card {
@@ -444,6 +445,7 @@ p:first-of-type {
 .project-card:hover {
     transition: 0.3s;
     box-shadow: 0 3px 10px 0 #C70039;
+    transform: scale(1.05);
 }
 
 
