@@ -448,7 +448,6 @@ p:first-of-type {
     transform: scale(1.05);
 }
 
-
 .card-button {
     cursor: pointer;
     border: 2.3px solid #C70039;
@@ -573,6 +572,7 @@ form div {
     #contact-section {
         margin-top: 50px;
         text-align: center;
+        width: 90%;
     }
 
     .contact-heading {
