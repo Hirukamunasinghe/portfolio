@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
 }
 
+/* background color of the entire body should be black */
 html,body {
     /* 2. colors */
     background-color: black;
@@ -12,6 +13,7 @@ html,body {
 
 }
 
+/* navigation bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -88,47 +90,6 @@ a[href] {
     border-radius: 10px;
 }
 
-
-
-/* navbar responsive */
-@media (max-width: 800px) {
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .nav-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-links ul {
-        width: 100%;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-
-    .nav-links ul li {
-        padding: 1rem;
-        text-align: center;
-    }
-
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .heading-center {
-        text-align: center;
-        margin-top: 10px;
-    }
-}
 
 /* HOME PAGE AFTER NAVIGATION */
 .home-div {
@@ -326,33 +287,6 @@ p:first-of-type {
     background-color: red;
 }
 
-/* MOBILE RESPONSIVE SECTION USING MAX WIDTH - about section */
-@media (max-width: 500px) {
-    .image {
-        display: block;
-        margin-left: 30px;
-    }
-}
-
-@media all and (max-width:1200px) {
-    .image {
-        border-radius: 50%;
-    }
-
-    .heading {
-        text-align: center;
-        margin-left: 25px;
-        margin-right: 10px;
-    }
-
-    .list-1 {
-        margin-left: -30px;
-    }
-
-    .list-2 {
-        margin-left: -160px;
-    }
-}
 
 
 /* SKILLS SECTION */
@@ -445,8 +379,11 @@ p:first-of-type {
 .project-card:hover {
     transition: 0.3s;
     box-shadow: 0 3px 10px 0 #C70039;
+    /* transform animation */
     transform: scale(1.05);
 }
+
+
 
 .card-button {
     cursor: pointer;
@@ -472,12 +409,6 @@ p:first-of-type {
     transition: 0.3s ease-in 0s
 }
 
-@media all and (max-width:1000px) {
-    .main-div {
-        display: grid;
-        gap: 50px;
-    }
-}
 
 /* CONTACT SECTION */
 #contact-section {
@@ -562,7 +493,76 @@ form div {
 
 /* 13. Have placed a data validation message in the HTML file itself */
 
-/* responsive contact section */
+/* navbar responsive */
+@media (max-width: 800px) {
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links ul {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .nav-links ul li {
+        padding: 1rem;
+        text-align: center;
+    }
+
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .heading-center {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/* MOBILE RESPONSIVE SECTION USING MAX WIDTH - about section */
+@media (max-width: 500px) {
+    .image {
+        display: block;
+        margin-left: 30px;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .image {
+        border-radius: 50%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+
+    .list-1 {
+        margin-left: -30px;
+    }
+
+    .list-2 {
+        margin-left: -160px;
+    }
+}
+
+
+/* Responsive contact section */
 
 @media all and (max-width:1300px) {
     input {
@@ -597,7 +597,7 @@ form div {
 
 }
 
-/* responsive section */
+/* responsive section - home and about */
 @media all and (max-width:1200px) {
 
     html,
@@ -705,4 +705,12 @@ form div {
         margin: auto;
     }
 
+}
+
+/* projects responsive section */
+@media all and (max-width:1000px) {
+    .main-div {
+        display: grid;
+        gap: 50px;
+    }
 }
