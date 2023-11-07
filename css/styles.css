@@ -24,7 +24,7 @@ html,body {
     padding-top: 20px;
 }
 
-/* 8. child selector - accessing the ul(child) from .nav-links(parent class) */
+/* 8. child combinator - accessing the ul(child) from .nav-links(parent class) */
 .nav-links>ul {
     display: flex;
     gap: 100px;
@@ -58,7 +58,8 @@ a[href] {
 
 .nav-links .home-link {
     color: #C70039;
-    opacity: 0.9;
+    /* semi transparent */
+    opacity: 0.8;
 }
 
 
@@ -70,6 +71,7 @@ a[href] {
     color: #C70039;
 }
 
+/* toggle button in navbar */
 .toggle-button {
     position: absolute;
     top: 0.5rem;
@@ -101,7 +103,7 @@ a[href] {
 .my-image {
     border: 0;
     position: relative;
-    /* 17. Trasnform */
+    /* 17. Transform */
     transform: rotate(-0.1deg);
     margin-top: -5px;
 }
@@ -199,7 +201,6 @@ a[href] {
 .icons .tw:hover {
     color: aqua;
 }
-
 
 
 /* ABOUT SECTION */
@@ -317,6 +318,7 @@ p:first-of-type {
 .p-card:hover {
     transition: 0.3s;
     box-shadow: 0 3px 10px 0 white;
+    /* transform - element pops out  */
     transform: scale(1.02);
 }
 
@@ -427,7 +429,7 @@ p:first-of-type {
 
 /* 11. Nth pseudo class */
 section:nth-child(7) {
-    background-color: gray;
+    font-weight: bold;
 }
 
 /* attribute selector 2 */
@@ -495,7 +497,6 @@ form div {
 
 /* navbar responsive */
 @media (max-width: 800px) {
-
     .toggle-button {
         display: flex;
     }
@@ -533,70 +534,6 @@ form div {
     }
 }
 
-/* MOBILE RESPONSIVE SECTION USING MAX WIDTH - about section */
-@media (max-width: 500px) {
-    .image {
-        display: block;
-        margin-left: 30px;
-    }
-}
-
-@media all and (max-width:1200px) {
-    .image {
-        border-radius: 50%;
-    }
-
-    .heading {
-        text-align: center;
-        margin-left: 25px;
-        margin-right: 10px;
-    }
-
-    .list-1 {
-        margin-left: -30px;
-    }
-
-    .list-2 {
-        margin-left: -160px;
-    }
-}
-
-
-/* Responsive contact section */
-
-@media all and (max-width:1300px) {
-    input {
-        width: 300px;
-    }
-
-    #contact-section {
-        margin-top: 50px;
-        text-align: center;
-        width: 90%;
-    }
-
-    .contact-heading {
-        display: flex;
-        justify-content: center;
-    }
-
-}
-
-@media all and (max-width:700px) {
-    input[type="text"] {
-        width: 160px;
-    }
-
-    input[type="email"] {
-        width: 160px;
-    }
-
-    input[type="tel"] {
-        width: 160px;
-    }
-
-}
-
 /* responsive section - home and about */
 @media all and (max-width:1200px) {
 
@@ -627,10 +564,35 @@ form div {
         display: none;
     }
 
+/* MOBILE RESPONSIVE SECTION USING MAX WIDTH - about section */
+@media (max-width: 500px) {
+    .image {
+        display: block;
+        margin-left: 30px;
+    }
+}
 
+@media all and (max-width:1200px) {
+    .image {
+        border-radius: 50%;
+    }
+
+    .heading {
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+
+    .list-1 {
+        margin-left: -30px;
+    }
+
+    .list-2 {
+        margin-left: -160px;
+    }
+}
 
     /* reponsive skills section */
-
     #skills-section {
         width: 100%;
     }
@@ -712,5 +674,38 @@ form div {
     .main-div {
         display: grid;
         gap: 50px;
+    }
+}
+
+/* Responsive contact section */
+@media all and (max-width:1300px) {
+    input {
+        width: 300px;
+    }
+
+    #contact-section {
+        margin-top: 50px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .contact-heading {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media all and (max-width:700px) {
+    input[type="text"] {
+        width: 160px;
+    }
+
+    input[type="email"] {
+        width: 160px;
+    }
+
+    input[type="tel"] {
+        width: 160px;
     }
 }
