@@ -1,3 +1,4 @@
+/* accessing all elements */
 * {
     margin: 0;
     padding: 0;
@@ -465,6 +466,10 @@ input {
     margin-bottom: 15px;
 }
 
+/* validity selector */
+input:valid{
+    background-color: #F7EFE5;
+}
 
 form div {
     padding: 3px;
@@ -494,6 +499,15 @@ form div {
 }
 
 /* 13. Have placed a data validation message in the HTML file itself */
+
+/* footer section */
+footer{
+    margin-top: 30px;
+}
+
+h5{
+    text-align: center;
+}
 
 /* navbar responsive */
 @media (max-width: 800px) {
