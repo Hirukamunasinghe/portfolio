@@ -181,13 +181,18 @@ a[href] {
     gap: 35px;
 }
 
+
 .link {
     color: white;
     font-size: 1.6rem;
     padding-top: 60px;
 }
 
-.icons .fb:hover {
+/* .icons .fb{
+    animation: iconAnimation 3s infinite;
+} */
+
+.icons .fb:hover{
     color: lightblue;
 }
 
@@ -202,6 +207,19 @@ a[href] {
 .icons .tw:hover {
     color: aqua;
 }
+
+/* Animations */
+/* @keyframes iconAnimation{
+    0%{
+        color: lightblue;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: #C70039;
+    }
+} */
 
 
 /* ABOUT SECTION */
@@ -290,7 +308,6 @@ p:first-of-type {
 }
 
 
-
 /* SKILLS SECTION */
 #skills-section {
     padding: 50px;
@@ -322,6 +339,8 @@ p:first-of-type {
     /* transform - element pops out  */
     transform: scale(1.02);
 }
+
+
 
 .skill-card {
     display: flex;
