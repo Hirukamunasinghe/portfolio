@@ -268,7 +268,7 @@ p:first-of-type {
     list-style-type: '> ';
     display: inline-block;
     line-height: 3;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 20px;
 }
 
@@ -331,6 +331,7 @@ p:first-of-type {
     box-shadow: 0 3px 8px 0 #C70039;
     /* 15. rounded corners - border radius */
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .p-card:hover {
@@ -396,6 +397,7 @@ p:first-of-type {
     /* 15. rounded corners - border radius */
     border-radius: 15px;
     grid-template-rows: 1fr 1fr;
+    cursor: pointer;
 }
 
 .project-card:hover {
