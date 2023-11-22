@@ -43,6 +43,5 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", handleResize);
 
     handleScroll(); // Initial check on page load
+
 });
-
-
