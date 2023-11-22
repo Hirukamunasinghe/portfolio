@@ -9,6 +9,7 @@ toggleButton.addEventListener('click', () => {
     heading.classList.add('heading-center')
 })
 
+// ANIMATION
 document.addEventListener("DOMContentLoaded", function () {
     const projectCards = document.querySelectorAll(".project-card");
 
