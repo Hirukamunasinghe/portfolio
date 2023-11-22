@@ -387,6 +387,12 @@ p:first-of-type {
     text-align: center;
     padding-top: 20px;
     row-gap: 50px;
+    transition: opacity 1s ease-in-out;
+}
+
+.main-div:hover, .main-div:focus{
+    animation: 2s slide-right;
+    opacity: 1 !important;
 }
 
 
@@ -407,7 +413,6 @@ p:first-of-type {
     /* transform animation */
     transform: scale(1.05);
 }
-
 
 
 .card-button {
@@ -434,6 +439,16 @@ p:first-of-type {
     transition: 0.3s ease-in 0s
 }
 
+/* slide animation */
+@keyframes slide-right{
+    from{
+        margin-left: -150%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
 
 /* CONTACT SECTION */
 #contact-section {
@@ -443,6 +458,7 @@ p:first-of-type {
     /* 16. Gradient */
     background: linear-gradient(#4b4d53, #b6bbca);
 }
+
 
 
 /* 10. Negation pseudo class */

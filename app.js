@@ -8,3 +8,4 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
     heading.classList.add('heading-center')
 })
+
