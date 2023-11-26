@@ -76,7 +76,7 @@ a[href] {
 .toggle-button {
   position: absolute;
   top: 0.5rem;
-  margin-top: 10px;
+  margin-top: 20px;
   right: 1rem;
   display: flex;
   flex-direction: column;
@@ -632,6 +632,7 @@ h5 {
   /* reponsive skills section */
   #skills-section {
     width: 100%;
+    text-align: center;
   }
 
   .skills-heading {
