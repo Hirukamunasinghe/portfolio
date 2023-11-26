@@ -45,3 +45,15 @@ document.addEventListener("DOMContentLoaded", function () {
     handleScroll(); // Initial check on page load
 
 });
+
+// const navbar = document.querySelector('.navbar');
+// var prevScrollpos = window.scrollY;
+// window.onscroll = function() {
+//   var currentScrollPos = window.scrollY;
+//   if (prevScrollpos > currentScrollPos) {
+//     navbar.style.top = "0";
+//   } else {
+//     navbar.style.top = "-150px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
