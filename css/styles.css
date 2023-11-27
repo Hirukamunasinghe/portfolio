@@ -399,7 +399,6 @@ p:first-of-type {
 }
 
 .project-card:hover {
-  transition:0.3s;
   box-shadow: 0 3px 8px 0 #c70039;
   transform: scale(1.05) !important;
   box-shadow: 1 3px 10px #c70039;
@@ -428,6 +427,11 @@ p:first-of-type {
   background-color: #c70039;
   color: white;
   transition: 0.3s ease-in 0s;
+}
+
+.text-area .p-card-para{
+  font-size: 0.65rem;
+  color: peachpuff;
 }
 
 /* slide animation */
