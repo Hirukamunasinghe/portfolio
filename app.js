@@ -1,13 +1,28 @@
 // accessing the toggle button
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('nav-links')[0]
-//making the portfolio heading center
-const heading = document.querySelector('.navbar-title')
-// toggle button click
+const toggleButton = document.querySelector('.toggle-button');
+const navBarLinks = document.querySelectorAll('.nav-links');
+const heading = document.querySelector('.navbar-title');
+
 toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active')
-    heading.classList.add('heading-center')
-})
+    navBarLinks.forEach(link => {
+        link.classList.toggle('active');
+    });
+
+    heading.classList.toggle('heading-center');
+
+    const isActive = heading.classList.contains('heading-center');
+    if (isActive) {
+        // Fix the heading position
+        heading.style.position = 'fixed'; 
+        // Set it to the top
+        heading.style.top = '0'; 
+    } else {
+        // Reset to the default position
+        heading.style.position = null; 
+        // Reset the top property
+        heading.style.top = null; 
+    }
+});
 
 // ANIMATION
 document.addEventListener("DOMContentLoaded", function () {
