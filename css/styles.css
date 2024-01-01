@@ -403,7 +403,7 @@ p:first-of-type {
 
 .project-card:hover {
   box-shadow: 0 3px 8px 0 #c70039;
-  transform: scale(1.05) !important;
+  transform: scale(1.02) !important;
   box-shadow: 1 3px 10px #c70039;
 }
 
