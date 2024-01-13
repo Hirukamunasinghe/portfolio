@@ -377,8 +377,8 @@ p:first-of-type {
 .project-card {
   display: grid;
   border: 2px solid white;
-  height: 320px;
-  width: 250px;
+  height: 400px;
+  width: 300px;
   border-radius: 15px;
   grid-template-rows: 1fr 1fr;
   cursor: pointer;
@@ -405,7 +405,7 @@ p:first-of-type {
   box-shadow: 0 3px 8px 0 #c70039;
   transform: scale(1.02) !important;
   box-shadow: 1 3px 10px #c70039;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 
@@ -421,8 +421,8 @@ p:first-of-type {
 }
 
 .card-picture {
-  height: 220px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
@@ -707,6 +707,17 @@ h5 {
   .image {
     width: 80%;
   }
+
+  .project-card {
+    height: 320px;
+    width: 250px;
+  }
+
+  .card-picture {
+    height: 220px;
+    width: 250px;
+  }
+
 
   .projects-heading {
     display: flex;
